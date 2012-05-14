@@ -39,4 +39,5 @@ class Client:
                     pass
 
 c = Client()
+c.host = raw_input("Host name: ")
 c.run(sys.stdin, sys.stdout)
